@@ -1,8 +1,15 @@
-#container {
-    display: flex;
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
   }
   
-  .Bootcamp {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+  
+  .bootcamp {
     width: 30%;
   }
   
@@ -13,3 +20,9 @@
   p {
     text-align: center;
   }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
