@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+  }
+  
+  .Bootcamp {
+    width: 30%;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
