@@ -6,17 +6,27 @@
   .container {
     display: flex;
     justify-content: center;
-    flex-flow: wrap;
+    /* flex-flow: wrap; */
   }
   
   .bootcamp {
-    width: 30%;
+    display: flex;
+    flex-flow: column;
+    /* width: 30%; */
+    /* text-align: center; */
+    justify-content: center;
   }
   
   body {
     text-align: center;
   }
   
+  h1 {
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    padding: 20px 0;
+  }
   p {
     text-align: center;
   }
